@@ -47,55 +47,14 @@
 			</tr>
 			
 */
-
+.newtabmenu {width: 100% !important;display: inline-block;border-bottom: 1px solid #eee;}
 .newtabmenu ul, li{border:0; margin:0; padding:0; list-style:none;}
-
 .newtabmenu li{float:left; margin-right:2px; text-align: center;}
-.newtabmenu a:link, .newtabmenu a:visited{
-	background:url(images/new_tab_menu.png) right 45px;
-	color:#ffffff; /* noactive font */
-	display:block;
-	/* fix for IE6 */
-	display: inline-block;
-	/*     END     */
-	font-weight:bold;
-	font-size:.9em;
-	height:20px;
-	line-height:20px;
-	text-decoration:none;
-}
-.newtabmenu a span{
-	background:url(images/new_tab_menu.png) left 45px;
-	display:block;
-	/* fix for IE6 */
-	display: inline-block;
-	/*     END     */
-	height:20px;
-	margin-right:7px;
-	padding-left:7px;
-}
-.newtabmenu a:hover{
-	background:url(images/new_tab_menu.png) right 23px;
-	display:block;
-	/* fix for IE6 */
-	display: inline-block;
-	/*     END     */
-	color:#ffffff; /* hover over font */
-}
-.newtabmenu a:hover span{
-	background:url(images/new_tab_menu.png) left 23px;
-	display:block;
-	/* fix for IE6 */
-	display: inline-block;
-	/*     END     */
-}
-
+.newtabmenu a:link, .newtabmenu a:visited{background: transparent;color:#555; /* noactive font */display:block;	/* fix for IE6 */display: inline-block;/*END*/font-weight: normal;font-size:.9em;padding: 7px 10px;line-height:20px;margin-right:5px;text-decoration:none;border-radius: 8px 8px 0 0;}
+.newtabmenu a span{background:transparent;display:block;/* fix for IE6 */display: inline-block;/*END*/height:20px;}
+.newtabmenu a:hover{background: #fafafa;display:block;/* fix for IE6 */display: inline-block;/*END*/color:#990000; /* hover over font */}
+.newtabmenu a:hover span{background: #fafafa;display:block;/* fix for IE6 */display: inline-block;/*END*/}
 /* -------------------------------- */
 /* 	ACTIVE ELEMENTS					*/
-.newtabmenu_active a:link, .newtabmenu_active a:visited, .newtabmenu_active a:visited, .newtabmenu_active a:hover{
-	color:#000000; /* active font */
-	background:url(images/new_tab_menu.png) right 0 no-repeat;
-} 
-.newtabmenu_active a span, .newtabmenu_active a:hover span{
-	background:url(images/new_tab_menu.png) left 0 no-repeat;
-}
+.newtabmenu_active a:link, .newtabmenu_active a:visited, .newtabmenu_active a:visited, .newtabmenu_active a:hover{background: #990000;color:#990000;/* active font */font-weight: bold;} 
+.newtabmenu_active a span, .newtabmenu_active a:hover span{background: transparent;color:#fff;}

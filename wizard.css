@@ -74,6 +74,8 @@ ul#wzdnav a:hover{color:#000;background:#fff;}
 ul#wzdnav a:active{color:#fff;background:gray;}
 #graph{position:relative;z-index:1;}
 #logoutbtn{position:absolute;left:95%;vertical-align:middle;}
+/* Style tab menus */
+.newtabmenu a:link, .newtabmenu a:visited { background: #fafafa; color: #ffffff; display: block; display: inline-block; font-weight: bold; font-size: .9em; height: 20px; line-height: 20px; text-decoration: none; }
 /* Class Based CSS Definitions */
 .pgtitle{font-size:18px;color:#777;font-weight:700;}
 .tfrtitle{font-size:18px;color:#fff;font-weight:700;}
@@ -81,24 +83,24 @@ ul#wzdnav a:active{color:#fff;background:gray;}
 .formfld{padding-left:19px;font-size:small;}
 .formselect{font-size:1em;}
 .langopt{padding-left:34px;padding-top:2px;padding-bottom:2px;}
-.saved{/* background: url('/themes/nione/images/icons/icon_wzd_saved.png') no-repeat 0 1px #FFFFFF; */list-style-image:url(/themes/nervecenter/images/icons/icon_wzd_saved.png)!important;}
-.notsaved{/* background: url('/themes/nione/images/icons/icon_wzd_nsaved.png') no-repeat 0 1px #FFFFFF; */list-style-image:url(/themes/nervecenter/images/icons/icon_wzd_nsaved.png)!important;}
-.en{background:url(/themes/nervecenter/images/icons/icon_flag_en.png) no-repeat 0 1px #fff;}
-.de{background:url(/themes/nervecenter/images/icons/icon_flag_de.png) no-repeat 0 1px #fff;}
-.es{background:url(/themes/nervecenter/images/icons/icon_flag_es.png) no-repeat 0 1px #fff;}
-.pt_BR{background:url(/themes/nervecenter/images/icons/icon_flag_pt_BR.png) no-repeat 0 1px #fff;}
-.host{background:url(/themes/nervecenter/images/icons/icon_frmfld_host.png) no-repeat 0 1px #fff;}
-.search{background:url(/themes/nervecenter/images/icons/icon_frmfld_search.png) no-repeat 0 1px #fff;}
-.file{background:url(/themes/nervecenter/images/icons/icon_frmfld_file.png) no-repeat 0 1px #fff;}
-.mail{background:url(/themes/nervecenter/images/icons/icon_frmfld_mail.png) no-repeat 0 1px #fff;}
-.imp{background:url(/themes/nervecenter/images/icons/icon_frmfld_imp.png) no-repeat 0 1px #fff;}
-.pwd{background:url(/themes/nervecenter/images/icons/icon_frmfld_pwd.png) no-repeat 0 1px #fff;}
-.user{background:url(/themes/nervecenter/images/icons/icon_frmfld_user.png) no-repeat 0 1px #fff;}
-.group{background:url(/themes/nervecenter/images/icons/icon_frmfld_group.png) no-repeat 0 1px #fff;}
-.url{background:url(/themes/nervecenter/images/icons/icon_frmfld_url.png) no-repeat 0 1px #fff;}
-.time{background:url(/themes/nervecenter/images/icons/icon_frmfld_time.png) no-repeat 0 1px #fff;}
-.unknown{background:url(/themes/nervecenter/images/icons/icon_frmfld_unknown.png) no-repeat 0 1px #fff;}
-.formfld_cert{background:url(/themes/nervecenter/images/icons/icon_frmfld_cert.png) no-repeat 0 1px #fff;padding-left:28px;font:11px Courier New,Courier,monospaced;}
+.saved{/* background: url('/themes/nione/images/icons/icon_wzd_saved.png') no-repeat 0 1px #FFFFFF; */list-style-image:url(images/icons/icon_wzd_saved.png)!important;}
+.notsaved{/* background: url('/themes/nione/images/icons/icon_wzd_nsaved.png') no-repeat 0 1px #FFFFFF; */list-style-image:url(images/icons/icon_wzd_nsaved.png)!important;}
+.en{background:url(images/icons/icon_flag_en.png) no-repeat 0 1px #fff;}
+.de{background:url(images/icons/icon_flag_de.png) no-repeat 0 1px #fff;}
+.es{background:url(images/icons/icon_flag_es.png) no-repeat 0 1px #fff;}
+.pt_BR{background:url(images/icons/icon_flag_pt_BR.png) no-repeat 0 1px #fff;}
+.host{background:url(images/icons/icon_frmfld_host.png) no-repeat 0 1px #fff;}
+.search{background:url(images/icons/icon_frmfld_search.png) no-repeat 0 1px #fff;}
+.file{background:url(images/icons/icon_frmfld_file.png) no-repeat 0 1px #fff;}
+.mail{background:url(images/icons/icon_frmfld_mail.png) no-repeat 0 1px #fff;}
+.imp{background:url(images/icons/icon_frmfld_imp.png) no-repeat 0 1px #fff;}
+.pwd{background:url(images/icons/icon_frmfld_pwd.png) no-repeat 0 1px #fff;}
+.user{background:url(images/icons/icon_frmfld_user.png) no-repeat 0 1px #fff;}
+.group{background:url(images/icons/icon_frmfld_group.png) no-repeat 0 1px #fff;}
+.url{background:url(images/icons/icon_frmfld_url.png) no-repeat 0 1px #fff;}
+.time{background:url(images/icons/icon_frmfld_time.png) no-repeat 0 1px #fff;}
+.unknown{background:url(images/icons/icon_frmfld_unknown.png) no-repeat 0 1px #fff;}
+.formfld_cert{background:url(images/icons/icon_frmfld_cert.png) no-repeat 0 1px #fff;padding-left:28px;font:11px Courier New,Courier,monospaced;}
 .formfldalias{color:#fff;background:#900;}
 .formpre{font:10px Courier New,Courier,monospaced;}
 .formbtn{font:700 13px Tahoma,Verdana,Arial,Helvetica,sans-serif;}

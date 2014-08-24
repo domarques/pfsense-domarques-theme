@@ -11,7 +11,7 @@ html,body,td,th,input,select{font:.95em Tahoma,Verdana,Arial,Helvetica,sans-seri
 .infoboxnp{width:100%;background:#900;}
 .infoboxnpimg{vertical-align:middle;width:28px;height:32px;background:#900;}
 .inputerrorsleft{width:36px;text-align:center;background:#900;}
-.inputerrorsright{color:#000;font-size:11px;padding-left:8px;padding-top:6px;background:#ffd9d1;}
+.inputerrorsright{color:#000;padding-left:8px;padding-top:6px;background:#ffd9d1;}
 div.GraphLink{position:relative;}
 span.GraphLinkLine{position:absolute;width:100%;background:#900;}
 /* DOM Tooltip CSS definitions */
@@ -57,12 +57,9 @@ table#marquee div#container div#scroller{position:absolute;left:0;top:0;}
 #navigation ul#menu{padding-top:0;padding-left:5px;}
 /* Style the List Elements */
 #navigation ul li{float:left;position:relative;/*width: 5.5em;*/font-size:15px;color:#fff;}
-#navigation ul li div{font-size:1em;font-weight:700;line-height:45px;padding:0 15px;}
+#navigation ul li div{font-size:1em;font-weight:700;line-height:45px;padding:2px 15px 3px;}
 /* Make the List inside the List Elements initially hidden with absolute position */
-#navigation ul li ul{display:none;position:absolute;top:2em;left:-2px;width:9em;font-weight:400;background:no-repeat bottom left;/* This is key to making the menu maintain visibility when not on a link background-color: #202020;
-	background: url("images/menu_footer.gif") no-repeat;
-	background-position: bottom;
-	*/padding:0 0 .4em;padding-top:.3em;}
+#navigation ul li ul{display:none;position:absolute;top:2em;left:-2px;width:12em;background:no-repeat bottom left;/* This is key to making the menu maintain visibility when not on a link background-color: #202020;background: url("images/menu_footer.gif") no-repeat;background-position: bottom;*/padding:0;padding-top:0;box-shadow: 0 0 20px #333;}
 /* to override top and left in browsers other than IE which will position to the top right of the containing li, rather than bottom left */
 #navigation ul li>ul{top:auto;left:auto;left:-1px!important;}
 /* Show initial drop down upon mouse over, but do not show nested side drop menus within listed elements */
@@ -70,7 +67,7 @@ table#marquee div#container div#scroller{position:absolute;left:0;top:0;}
 #navigation ul li:hover{cursor:pointer;cursor:pointer;}
 #navigation ul li:hover div{text-decoration:none;}
 /* dropdownmenu mainitems textcolor dropdownmenubackground */
-#navigation ul li ul li{border:0 solid #333;width:8.8em;height:1.6em;line-height:1.6em;color:#FFF;text-align:left;filter:alpha(opacity=90);-moz-opacity:.9;-khtml-opacity:.9;opacity:.9;background:#333;}
+#navigation ul li ul li{background:#333;border:0 solid #333;width:12em;height:1.6em;line-height:1.6em;color:#FFF;text-align:left;filter:alpha(opacity=95);-moz-opacity:.95;-khtml-opacity:.95;opacity:.95;}
 #navigation ul li ul li:hover{background:#ccc;}
 /* textcolor in dropdownmenu */
 #navigation li li a{display:block;padding-left:5px;margin-right:10px;color:#fff;}
@@ -96,28 +93,28 @@ ul#wzdnav a:active{color:#fff;background:gray;}
 /* Class Based CSS Definitions */
 .pgtitle{font-size:200%;color:#777;font-weight:700;line-height:150%;}
 .tfrtitle{font-size:18px;color:#fff;font-weight:700;}
-.vncell{padding-right:20px;padding-left:8px;border-bottom:1px solid #999;background:#ddd;}
+.vncell{padding-right:20px;padding-left:8px;border-bottom:1px solid #ccc;background:#fafafa;}
 .formfld{padding-left:19px;font-size:small;}
 .formselect{font-size:1em;}
 .langopt{padding-left:34px;padding-top:2px;padding-bottom:2px;}
-.saved{/* background: url('/themes/nione/images/icons/icon_wzd_saved.png') no-repeat 0 1px #FFFFFF; */list-style-image:url(/themes/nervecenter/images/icons/icon_wzd_saved.png)!important;}
-.notsaved{/* background: url('/themes/nione/images/icons/icon_wzd_nsaved.png') no-repeat 0 1px #FFFFFF; */list-style-image:url(/themes/nervecenter/images/icons/icon_wzd_nsaved.png)!important;}
-.en{background:url(/themes/nervecenter/images/icons/icon_flag_en.png) no-repeat 0 1px #fff;}
-.de{background:url(/themes/nervecenter/images/icons/icon_flag_de.png) no-repeat 0 1px #fff;}
-.es{background:url(/themes/nervecenter/images/icons/icon_flag_es.png) no-repeat 0 1px #fff;}
-.pt_BR{background:url(/themes/nervecenter/images/icons/icon_flag_pt_BR.png) no-repeat 0 1px #fff;}
-.host{background:url(/themes/nervecenter/images/icons/icon_frmfld_host.png) no-repeat 0 1px #fff;}
-.search{background:url(/themes/nervecenter/images/icons/icon_frmfld_search.png) no-repeat 0 1px #fff;}
-.file{background:url(/themes/nervecenter/images/icons/icon_frmfld_file.png) no-repeat 0 1px #fff;}
-.mail{background:url(/themes/nervecenter/images/icons/icon_frmfld_mail.png) no-repeat 0 1px #fff;}
-.imp{background:url(/themes/nervecenter/images/icons/icon_frmfld_imp.png) no-repeat 0 1px #fff;}
-.pwd{background:url(/themes/nervecenter/images/icons/icon_frmfld_pwd.png) no-repeat 0 1px #fff;}
-.user{background:url(/themes/nervecenter/images/icons/icon_frmfld_user.png) no-repeat 0 1px #fff;}
-.group{background:url(/themes/nervecenter/images/icons/icon_frmfld_group.png) no-repeat 0 1px #fff;}
-.url{background:url(/themes/nervecenter/images/icons/icon_frmfld_url.png) no-repeat 0 1px #fff;}
-.time{background:url(/themes/nervecenter/images/icons/icon_frmfld_time.png) no-repeat 0 1px #fff;}
-.unknown{background:url(/themes/nervecenter/images/icons/icon_frmfld_unknown.png) no-repeat 0 1px #fff;}
-.formfld_cert{background:url(/themes/nervecenter/images/icons/icon_frmfld_cert.png) no-repeat 0 1px #fff;padding-left:28px;font:11px Courier New,Courier,monospaced;}
+.saved{/* background: url('/themes/nione/images/icons/icon_wzd_saved.png') no-repeat 0 1px #FFFFFF; */list-style-image:url(images/icons/icon_wzd_saved.png)!important;}
+.notsaved{/* background: url('/themes/nione/images/icons/icon_wzd_nsaved.png') no-repeat 0 1px #FFFFFF; */list-style-image:url(images/icons/icon_wzd_nsaved.png)!important;}
+.en{background:url(images/icons/icon_flag_en.png) no-repeat 0 1px #fff;}
+.de{background:url(images/icons/icon_flag_de.png) no-repeat 0 1px #fff;}
+.es{background:url(images/icons/icon_flag_es.png) no-repeat 0 1px #fff;}
+.pt_BR{background:url(images/icons/icon_flag_pt_BR.png) no-repeat 0 1px #fff;}
+.host,.formfld#src,.formfld#external{background:url(images/icons/icon_frmfld_host.png) no-repeat 0 1px #fff;}
+.search{background:url(images/icons/icon_frmfld_search.png) no-repeat 0 1px #fff;}
+.file{background:url(images/icons/icon_frmfld_file.png) no-repeat 0 1px #fff;}
+.mail{background:url(images/icons/icon_frmfld_mail.png) no-repeat 0 1px #fff;}
+.imp{background:url(images/icons/icon_frmfld_imp.png) no-repeat 0 1px #fff;}
+.pwd{background:url(images/icons/icon_frmfld_pwd.png) no-repeat 0 1px #fff;}
+.user{background:url(images/icons/icon_frmfld_user.png) no-repeat 0 1px #fff;}
+.group{background:url(images/icons/icon_frmfld_group.png) no-repeat 0 1px #fff;}
+.url{background:url(images/icons/icon_frmfld_url.png) no-repeat 0 1px #fff;}
+.time{background:url(images/icons/icon_frmfld_time.png) no-repeat 0 1px #fff;}
+.unknown{background:url(images/icons/icon_frmfld_unknown.png) no-repeat 0 1px #fff;}
+.formfld_cert{background:url(images/icons/icon_frmfld_cert.png) no-repeat 0 1px #fff;padding-left:28px;font:11px Courier New,Courier,monospaced;}
 .formfldalias{color:#fff;background:#900;}
 .formpre{font:10px Courier New,Courier,monospaced;}
 .formbtn{font:700 13px Tahoma,Verdana,Arial,Helvetica,sans-serif;}
@@ -126,46 +123,47 @@ ul#wzdnav a:active{color:#fff;background:gray;}
 .errmsg{font-weight:700;color:#c00;}
 .red{color:#c00;}
 .gray{color:#a0a0a0;}
-.vexpl{font-size:11px;}
+.vexpl{color: #555;}
 .navlnk{color:#fff;text-decoration:none;font-size:13px;}
-.navlnks{color:#fff;text-decoration:none;font-size:11px;}
+.navlnks{color:#fff;text-decoration:none;}
 .redlnk{color:#900;text-decoration:none;}
 .tblnk{color:#fff;text-decoration:none;}
-.vncellreq{padding-right:20px;padding-left:8px;font-weight:700;border-bottom:1px solid #999;background:#ddd;}
-.vncellt{font-weight:700;border-bottom:1px solid #999;padding:4px 20px 4px 8px;background:#ddd;}
-.vtable{border-bottom:1px solid #999;}
-.vnsepcell{padding-right:20px;padding-left:8px;font-weight:700;border-bottom:1px solid #999;font-size:11px;background:#bbb;}
-.cpline{font-size:11px;color:#fff;}
-.hostname{font-size:11px;color:#900;font-weight:700;}
-.vnsepcellr{padding-right:20px;padding-left:8px;font-weight:700;border-right:1px solid #999;border-bottom:1px solid #999;font-size:11px;background:#bbb;}
-.listrborder{border-left:1px solid #999;border-right:1px solid #999;border-bottom:1px solid #999;font-size:11px;padding:4px 6px;background:#fff;}
-.listr{border-right:1px solid #999;border-bottom:1px solid #999;font-size:11px;padding:4px 6px;background:#fff;}
-.listrpad{border-right:1px solid #999;border-bottom:1px solid #999;font-size:11px;padding:8px 16px 8px 10px;}
-.listn{font-size:11px;padding:4px 16px 4px 6px;}
-.listbg{border-right:1px solid #999;border-bottom:1px solid #999;color:#fff;font-size:11px;padding:4px 16px 4px 6px;background:#900;}
-.listbggrey{border-right:1px solid #999;border-bottom:1px solid #999;font-size:11px;padding:4px 16px 4px 6px;background:#999;}
-.listhdr{font-weight:700;border-bottom:1px solid #999;font-size:11px;padding:5px 16px 5px 6px;background:#bbb;}
+.vncellreq{padding-right:20px;padding-left:8px;font-weight:700;border-bottom:1px solid #ccc;background:#fafafa;}
+.vncellt{font-weight:700;border-bottom:1px solid #ccc;padding:4px 20px 4px 8px;background:#efefef;}
+.vtable{border-bottom:1px solid #ccc;}
+.vnsepcell{padding-right:20px;padding-left:8px;font-weight:700;border-bottom:1px solid #ccc;background:#bbb;}
+.cpline{color:#fff;}
+.hostname{color:#900;font-weight:700;}
+.vnsepcellr{padding-right:20px;padding-left:8px;font-weight:700;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background:#bbb;}
+.listrborder{border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 6px;background:#fff;}
+.listr{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 6px;background:#fff;}
+.listrpad{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:8px 16px 8px 10px;}
+.listn{padding:4px 16px 4px 6px;}
+.listbg{border-right:1px solid #ccc;border-bottom:1px solid #ccc;color:#fff;padding:4px 16px 4px 6px;background:#900;}
+.listbggrey{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 16px 4px 6px;background:#ccc;}
+.listhdr{font-weight:700;border-bottom:1px solid #ccc;padding:5px 16px 5px 6px;background:#efefef;}
 .listhdr a{color:#000;}
-.listhdrr{font-weight:700;border-right:1px solid #999;border-bottom:1px solid #999;font-size:11px;padding:5px 16px 5px 6px;background:#bbb;}
+.listhdrr{font-weight:700;border-bottom:1px solid #ccc;padding:5px 16px 5px 6px;background:#efefef;}
 .listhdrr a{color:#000;}
-.listlr{border-right:1px solid #999;border-bottom:1px solid #999;border-left:1px solid #999;font-size:11px;padding:4px 6px;background:#fff;}
-.listlrns{border-right:1px solid #999;border-bottom:1px solid #999;border-left:1px solid #999;font-size:11px;padding-top:4px;padding-bottom:4px;background:#fff;}
-.list{font-size:11px;padding-left:6px;padding-top:2px;padding-bottom:2px;}
-.listt{font-size:11px;padding-top:5px;}
-.listhdrrns{font-weight:700;border-right:1px solid #999;border-bottom:1px solid #999;font-size:11px;padding:5px 6px;background:#bbb;}
-.listbgns{border-right:1px solid #999;border-bottom:1px solid #999;font-size:11px;padding:4px 4px 4px 6px;background:#d9dee8;}
-.listtopic{border-right:1px solid #999;font-size:100%;color:#fff;font-weight:700;padding:10px 16px 10px 6px;background:#900;}
-.optsect_t{border-right:1px solid #999;padding:2px 6px;background:#900;}
-.optsect_s{font-size:11px;color:#fff;font-weight:700;}
+.listlr{border-bottom:1px solid #ccc;border-left:1px solid #ccc;padding:4px 6px;background:#fff;}
+.listlrns{border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-left:1px solid #ccc;padding-top:4px;padding-bottom:4px;background:#fff;}
+.list{padding-left:6px;padding-top:2px;padding-bottom:2px;}
+.listt{padding-top:5px;}
+.listhdrrns{font-weight:700;border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:5px 6px;background:#bbb;}
+.listbgns{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 4px 4px 6px;background:#d9dee8;}
+.listtopic{border-right:1px solid #ccc;color:#fff;font-weight:700;padding:10px 16px 10px 6px;background:#900;}
+.optsect_t{border-right:1px solid #ccc;padding:2px 6px;background:#900;}
+.optsect_s{color:#fff;font-weight:700;}
 .tabnavtbl{}
 /* MISC CSS Definitions */
-ul#tabnav{font-size:11px;font-weight:700;list-style-type:none;margin:0;padding:0;}
+ul#tabnav{font-weight:700;list-style-type:none;margin:0;padding:0;}
 ul#tabnav li.tabinact1{float:left;color:#fff;padding:0;white-space:nowrap;background:#777;}
 ul#tabnav li.tabinact{float:left;border-left:1px solid #999;color:#fff;padding:0;white-space:nowrap;background:#777;}
 ul#tabnav li.tabinact a{float:left;display:block;text-decoration:none;padding:5px 8px;color:#fff;}
 ul#tabnav li.tabinact1 a{float:left;display:block;text-decoration:none;padding:5px 8px;color:#fff;}
 ul#tabnav li.tabact{float:left;color:#000;padding:5px 8px;white-space:nowrap;background:#eee;}
-.tabcont{padding:12px;background:#ddd;}
+.tabcont{padding:12px;background:#fafafa;}
+#mainarea .rar1,#mainarea .rar2,#mainarea .rar3,#mainarea .rar4,#mainarea .ra1,#mainarea .ra2,#mainarea .ra3,#mainarea .ra4 {background: #fafafa !important;}
 .tabact{float:left;color:#000;padding:5px 8px;white-space:nowrap;background:#eee;}
 .tabinact{font-weight:700;float:left;border-left:1px solid #999;color:#fff;padding:0;white-space:nowrap;background:#777;}
 .menu{white-space:nowrap;padding:0 5px;width:100%;vertical-align:top;background:#000;}
@@ -216,14 +214,14 @@ div#log span.log-source,div#log span.log-destination{width:17.6em;}
 #login #username,#password,#password2{font-size:small;width:60%;padding-left:19px;padding:3px;margin:0;}
 #login #submit{font-size:1em;font-weight:700;padding:3px;margin:0;text-indent:10px;}
 /* Widget CSS */
-.widgetsubheader{border-right:1px solid #999;font-size:11px;color:#000;font-weight:700;padding:5px 6px;background:#b1b1b1;}
-.widgetheader{border-right:1px solid #999;font-size:11px;color:#fff;font-weight:700;padding:5px 6px;background:#900;}
+.widgetsubheader{border-right:1px solid #999;color:#000;font-weight:700;padding:5px 6px;background:#b1b1b1;}
+.widgetheader{border-right:1px solid #999;color:#fff;font-weight:700;padding:5px 6px;background:#900;}
 .widgetdiv{margin:5px;padding:5px;background:#ccc;}
-.widgetconfigdiv{background:#bbb;font-size:11px;color:#000;padding:5px;}
+.widgetconfigdiv{background:#bbb;color:#000;padding:5px;}
 div#log div.log-entry-mini{clear:both;}
 div#log div.log-entry-mini span{padding:2px;padding-left:6px;}
 div#log span.log-action-mini-header,div#log span.log-time-mini-header,div#log span.log-interface-mini-header,div#log span.log-source-mini-header,div#log span.log-destination-mini-header,div#log span.log-protocol-mini-header{float:left;text-align:left;font-size:12px;border-left:1px solid #999;border-bottom:1px solid #999;background:#b1b1b1;}
-div#log span.log-action-mini,div#log span.log-time-mini,div#log span.log-interface-mini,div#log span.log-source-mini,div#log span.log-destination-mini,div#log span.log-protocol-mini{float:left;text-align:left;font-size:11px;border-left:1px solid #999;border-bottom:1px solid #999;background:#fff;}
+div#log span.log-action-mini,div#log span.log-time-mini,div#log span.log-interface-mini,div#log span.log-source-mini,div#log span.log-destination-mini,div#log span.log-protocol-mini{float:left;text-align:left;border-left:1px solid #999;border-bottom:1px solid #999;background:#fff;}
 div#log span.log-action-mini,div#log span.log-action-mini-header{width:6%;}
 div#log span.log-time-mini,div#log span.log-time-mini-header{width:19%;}
 div#log span.log-interface-mini,div#log span.log-interface-mini-header{width:8%;}
@@ -233,7 +231,7 @@ div#log span.log-protocol-mini,div#log span.log-protocol-mini-header{width:8%;bo
 /* Sortable tables */
 table.sortable thead{cursor:default;padding:12px;background:#eee;}
 /*thermal_sensors widget styles*/
-.thermalSensorRow{width:100%;border:0 solid #ddd;padding:1px;border-radius:3px;}
+.thermalSensorRow{width:100%;border:0 solid #efefef;padding:1px;border-radius:3px;}
 .thermalSensorBarShell{position:relative;width:100%;height:5px;border:1px solid lightgray;border-radius:3px;}
 .thermalSensorBar{position:absolute;width:0;height:1px;z-index:1;border-style:solid;border-radius:3px;border-top-color:Lime;border-bottom-color:Green;border-width:2px 0;background:#32cd32;}
 .thermalSensorTextShell{height:20px;width:100%;top:3px;}
