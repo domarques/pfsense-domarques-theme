@@ -5,7 +5,7 @@ Domarques pfSense theme
 
 A 5 minute work, so, please, don't expect a perfect custom theme. I've done a quick check and most of pages are ok.
 
-~~Maybe i'll change the UI icons using font awesome. ~~ Done =D
+~~Maybe i'll change the UI icons using font awesome.~~ Done =D
 
 The theme was made using pfSense 2.1.4-RELEASE. I can't determine, right now, if is compatible with previous versions.
 
