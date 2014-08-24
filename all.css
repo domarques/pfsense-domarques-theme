@@ -46,8 +46,8 @@ span#marquee-container{position:absolute;visibility:hidden;top:-100px;left:-1000
 div#marquee-text{font-weight:700;color:#000;padding-left:5px;font:400 1em Verdana;}
 table#marquee div#container{position:relative;overflow:hidden;width:170px;height:16px;}
 table#marquee div#container div#scroller{position:absolute;left:0;top:0;}
-#content{position:relative;top:-5px;left:0;margin-top:0;margin-left:0;padding-top:0;width:100%;background:#fff;border-radius:10px;box-shadow:0 0 10px #333;overflow:hidden;}
-#left{width:100%;height:50px;background:#900;}
+#content{position:relative;top:-5px;left:0;margin-top:0;margin-left:0;padding-top:0;width:100%;background:#fff;border-radius:10px;box-shadow:0 0 10px #333;}
+#left{width:100%;height:50px;background:#900; border-radius: 10px 10px 0 0;}
 #right{position:relative;top:0;margin:0 5px;padding:20px 10px;min-height:600px;}
 #footer{position:relative;top:-5px;left:0;width:100%;height:75px;color:#999;text-align:center;font-size:.9em;padding-top:17px;margin-bottom:20px;clear:both;}
 #footer p{padding:0;margin:0;}
@@ -136,16 +136,16 @@ ul#wzdnav a:active{color:#fff;background:gray;}
 .hostname{color:#900;font-weight:700;}
 .vnsepcellr{padding-right:20px;padding-left:8px;font-weight:700;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background:#bbb;}
 .listrborder{border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 6px;background:#fff;}
-.listr{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 6px;background:#fff;}
+.listr{border-bottom:1px solid #ccc;padding:4px 6px;background:#fff;}
 .listrpad{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:8px 16px 8px 10px;}
 .listn{padding:4px 16px 4px 6px;}
-.listbg{border-right:1px solid #ccc;border-bottom:1px solid #ccc;color:#fff;padding:4px 16px 4px 6px;background:#900;}
+.listbg{border-bottom:1px solid #ccc;color:#fff;padding:4px 16px 4px 6px;background:#900;}
 .listbggrey{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:4px 16px 4px 6px;background:#ccc;}
 .listhdr{font-weight:700;border-bottom:1px solid #ccc;padding:5px 16px 5px 6px;background:#efefef;}
 .listhdr a{color:#000;}
 .listhdrr{font-weight:700;border-bottom:1px solid #ccc;padding:5px 16px 5px 6px;background:#efefef;}
 .listhdrr a{color:#000;}
-.listlr{border-bottom:1px solid #ccc;border-left:1px solid #ccc;padding:4px 6px;background:#fff;}
+.listlr{border-bottom:1px solid #ccc;padding:4px 6px;background:#fff;}
 .listlrns{border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-left:1px solid #ccc;padding-top:4px;padding-bottom:4px;background:#fff;}
 .list{padding-left:6px;padding-top:2px;padding-bottom:2px;}
 .listt{padding-top:5px;}
