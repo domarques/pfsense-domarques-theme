@@ -44,6 +44,8 @@ If you want change the color scheme, just replace the default color (red -> #900
 
 Note that i'm using hex color shorthand, but you can use any css color module (rgb, hsl, hwb etc.).
 
+Preview: http://prntscr.com/4h0c61
+
 Screenshot
 --------
 ![Theme preview](preview.jpg "Theme preview")
