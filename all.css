@@ -163,7 +163,7 @@ ul#tabnav li.tabinact a{float:left;display:block;text-decoration:none;padding:5p
 ul#tabnav li.tabinact1 a{float:left;display:block;text-decoration:none;padding:5px 8px;color:#fff;}
 ul#tabnav li.tabact{float:left;color:#000;padding:5px 8px;white-space:nowrap;background:#eee;}
 .tabcont{padding:12px;background:#fafafa;}
-#mainarea .rar1,#mainarea .rar2,#mainarea .rar3,#mainarea .rar4,#mainarea .ra1,#mainarea .ra2,#mainarea .ra3,#mainarea .ra4 {background: #fafafa !important;}
+#mainarea .rar1,#mainarea .rar2,#mainarea .rar3,#mainarea .rar4,#mainarea .ra1,#mainarea .ra2,#mainarea .ra3,#mainarea .ra4,#boxarea .ra1,#boxarea .ra2,#boxarea .ra3,#boxarea .ra4 {background: #fafafa !important;}
 .tabact{float:left;color:#000;padding:5px 8px;white-space:nowrap;background:#eee;}
 .tabinact{font-weight:700;float:left;border-left:1px solid #999;color:#fff;padding:0;white-space:nowrap;background:#777;}
 .menu{white-space:nowrap;padding:0 5px;width:100%;vertical-align:top;background:#000;}
