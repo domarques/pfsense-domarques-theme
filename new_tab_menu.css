@@ -52,9 +52,9 @@
 .newtabmenu li{float:left; margin-right:2px; text-align: center;}
 .newtabmenu a:link, .newtabmenu a:visited{background: transparent;color:#555; /* noactive font */display:block;	/* fix for IE6 */display: inline-block;/*END*/font-weight: normal;font-size:.9em;padding: 7px 10px;line-height:20px;margin-right:5px;text-decoration:none;border-radius: 8px 8px 0 0;}
 .newtabmenu a span{background:transparent;display:block;/* fix for IE6 */display: inline-block;/*END*/height:20px;}
-.newtabmenu a:hover{background: #fafafa;display:block;/* fix for IE6 */display: inline-block;/*END*/color:#990000; /* hover over font */}
+.newtabmenu a:hover{background: #fafafa;display:block;/* fix for IE6 */display: inline-block;/*END*/color:#900; /* hover over font */}
 .newtabmenu a:hover span{background: #fafafa;display:block;/* fix for IE6 */display: inline-block;/*END*/}
 /* -------------------------------- */
 /* 	ACTIVE ELEMENTS					*/
-.newtabmenu_active a:link, .newtabmenu_active a:visited, .newtabmenu_active a:visited, .newtabmenu_active a:hover{background: #990000;color:#990000;/* active font */font-weight: bold;} 
+.newtabmenu_active a:link, .newtabmenu_active a:visited, .newtabmenu_active a:visited, .newtabmenu_active a:hover{background: #900;color:#900;/* active font */font-weight: bold;} 
 .newtabmenu_active a span, .newtabmenu_active a:hover span{background: transparent;color:#fff;}
